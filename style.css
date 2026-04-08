@@ -69,7 +69,6 @@ hr {
     height: 400px;
     background-size: cover;
     background-position: center;
-    transition: transform 0.3s ease;
 }
 
 .img1 {
