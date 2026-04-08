@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 50%;
+    height: 180px;
+    margin: 0;
+    border: 3px solid #444;
+}
+
+.header .info {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.info h1, .info h4 {
+    margin: 0;
+}
+.info p {
+    line-height: 1.6;
+}
+
+.header .habilidades {
+    list-style: none;
+    padding: 0;
+}
+
+.header .habilidades li {
+    margin-bottom: 5px;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid #333;
+}
+
+/* Galeria */
+.galeria {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.img {
+    width: 33.3%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.img1 {
+    background-image: url(img/dean_card_1.jpg);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+.img2 {
+    background-image: url(img/dean_card_2.jpg);
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);
+}
+.img3 {
+    background-image: url(img/dean_card_3.jpg);
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+}
